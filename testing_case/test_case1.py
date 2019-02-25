@@ -21,9 +21,9 @@ def test_case(num):
                 email = browser.find_element_by_id("email")
                 password = browser.find_element_by_id("pass")
                 submit = browser.find_element_by_id("loginbutton")
-                email.send_keys("vincentlo1997@yahoo.com.hk")
+                email.send_keys("")
                 # your email address
-                password.send_keys("Vi26151851@")
+                password.send_keys("")
                 # your_password
                 submit.click()
                 num += 1

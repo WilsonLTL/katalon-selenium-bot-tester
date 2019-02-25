@@ -3,7 +3,7 @@ import datetime
 from selenium import webdriver
 
 error_limit = 10
-filename = "log/test_case2-" + str(datetime.datetime.now()) + ".txt"
+filename = "log/test_case1-" + str(datetime.datetime.now()) + ".txt"
 
 
 def test_case(num):
@@ -21,9 +21,9 @@ def test_case(num):
                 email = browser.find_element_by_id("email")
                 password = browser.find_element_by_id("pass")
                 submit = browser.find_element_by_id("loginbutton")
-                email.send_keys("vincentlo1997@yahoo.com.hk")
+                email.send_keys("")
                 # your email address
-                password.send_keys("Vi26151851@")
+                password.send_keys("")
                 # your_password
                 submit.click()
                 num += 1
@@ -71,13 +71,12 @@ def test_case(num):
 
 
 def clear_chat():
-    time.sleep(5)
-    browser.find_element_by_css_selector("div._3-ne > div._3d85 > div._5blh._4-0h").click()
-    time.sleep(1)
-    browser.find_element_by_xpath("//li[4]/a/span/span").click()
-    time.sleep(1)
-    browser.find_element_by_xpath("//span[2]/button").click()
     time.sleep(3)
+    browser.find_element_by_css_selector("div._3-ne > div._3d85 > div._5blh._4-0h").click()
+    browser.find_element_by_xpath("//li[4]/a/span/span").click()
+    browser.find_element_by_xpath("//span[2]/button").click()
+    time.sleep(1)
+
 
 
 if __name__ == '__main__':
