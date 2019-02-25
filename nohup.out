@@ -1,0 +1,308 @@
+Start:1
+Start:2
+Start:2
+Start:2
+Start:2
+Start:2
+Traceback (most recent call last):
+  File "testing_case/test_case1.py", line 52, in test_case
+    with open(filename, "a") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../log/test_case1-2019-02-25 12:01:02.739793.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "testing_case/test_case1.py", line 31, in test_case
+    browser.find_element_by_link_text(u"開始使用").click()
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in find_element_by_link_text
+    return self.find_element(by=By.LINK_TEXT, value=link_text)
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"link text","selector":"開始使用"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017),platform=Mac OS X 10.13.6 x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "testing_case/test_case1.py", line 31, in test_case
+    browser.find_element_by_link_text(u"開始使用").click()
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in find_element_by_link_text
+    return self.find_element(by=By.LINK_TEXT, value=link_text)
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"link text","selector":"開始使用"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017),platform=Mac OS X 10.13.6 x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "testing_case/test_case1.py", line 31, in test_case
+    browser.find_element_by_link_text(u"開始使用").click()
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in find_element_by_link_text
+    return self.find_element(by=By.LINK_TEXT, value=link_text)
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"link text","selector":"開始使用"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017),platform=Mac OS X 10.13.6 x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "testing_case/test_case1.py", line 31, in test_case
+    browser.find_element_by_link_text(u"開始使用").click()
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in find_element_by_link_text
+    return self.find_element(by=By.LINK_TEXT, value=link_text)
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"link text","selector":"開始使用"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017),platform=Mac OS X 10.13.6 x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "testing_case/test_case1.py", line 31, in test_case
+    browser.find_element_by_link_text(u"開始使用").click()
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in find_element_by_link_text
+    return self.find_element(by=By.LINK_TEXT, value=link_text)
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"link text","selector":"開始使用"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017),platform=Mac OS X 10.13.6 x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "testing_case/test_case1.py", line 81, in <module>
+    test_case(1)
+  File "testing_case/test_case1.py", line 69, in test_case
+    test_case(num)
+  File "testing_case/test_case1.py", line 69, in test_case
+    test_case(num)
+  File "testing_case/test_case1.py", line 69, in test_case
+    test_case(num)
+  [Previous line repeated 2 more times]
+  File "testing_case/test_case1.py", line 12, in test_case
+    time.sleep(3)
+KeyboardInterrupt
+Start:1
+Start:2
+Finish:2
+Start:3
+Start:3
+Start:3
+Finish:3
+Start:4
+Traceback (most recent call last):
+  File "testing_case/test_case1.py", line 52, in test_case
+    with open(filename, "a") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../log/test_case1-2019-02-25 12:16:11.496819.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "testing_case/test_case1.py", line 52, in test_case
+    with open(filename, "a") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../log/test_case1-2019-02-25 12:16:11.496819.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "testing_case/test_case1.py", line 35, in test_case
+    browser.find_element_by_xpath(u"//a[contains(text(),'可以問什麼? 🛂')]").click()
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'可以問什麼? 🛂')]"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017),platform=Mac OS X 10.13.6 x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "testing_case/test_case1.py", line 35, in test_case
+    browser.find_element_by_xpath(u"//a[contains(text(),'可以問什麼? 🛂')]").click()
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'可以問什麼? 🛂')]"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017),platform=Mac OS X 10.13.6 x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "testing_case/test_case1.py", line 52, in test_case
+    with open(filename, "a") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../log/test_case1-2019-02-25 12:16:11.496819.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "testing_case/test_case1.py", line 41, in test_case
+    browser.find_element_by_xpath(u"//div[contains(text(),'可以了 👌🏻')]").click()
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'可以了 👌🏻')]"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017),platform=Mac OS X 10.13.6 x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "testing_case/test_case1.py", line 81, in <module>
+    test_case(1)
+  File "testing_case/test_case1.py", line 69, in test_case
+    test_case(num)
+  File "testing_case/test_case1.py", line 69, in test_case
+    test_case(num)
+  File "testing_case/test_case1.py", line 69, in test_case
+    test_case(num)
+  [Previous line repeated 2 more times]
+  File "testing_case/test_case1.py", line 12, in test_case
+    time.sleep(3)
+KeyboardInterrupt
+Start:1
+Start:2
+Finish:2
+Start:3
+Start:3
+Start:3
+Finish:3
+Start:4
+Traceback (most recent call last):
+  File "testing_case/test_case1.py", line 52, in test_case
+    with open(filename, "a") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../log/test_case1-2019-02-25 12:17:22.276618.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "testing_case/test_case1.py", line 52, in test_case
+    with open(filename, "a") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../log/test_case1-2019-02-25 12:17:22.276618.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "testing_case/test_case1.py", line 35, in test_case
+    browser.find_element_by_xpath(u"//a[contains(text(),'可以問什麼? 🛂')]").click()
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'可以問什麼? 🛂')]"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017),platform=Mac OS X 10.13.6 x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "testing_case/test_case1.py", line 35, in test_case
+    browser.find_element_by_xpath(u"//a[contains(text(),'可以問什麼? 🛂')]").click()
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'可以問什麼? 🛂')]"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017),platform=Mac OS X 10.13.6 x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "testing_case/test_case1.py", line 52, in test_case
+    with open(filename, "a") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../log/test_case1-2019-02-25 12:17:22.276618.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "testing_case/test_case1.py", line 41, in test_case
+    browser.find_element_by_xpath(u"//div[contains(text(),'可以了 👌🏻')]").click()
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/wilsonlo/Desktop/api_adpter/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'可以了 👌🏻')]"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017),platform=Mac OS X 10.13.6 x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "testing_case/test_case1.py", line 81, in <module>
+    test_case(1)
+  File "testing_case/test_case1.py", line 69, in test_case
+    test_case(num)
+  File "testing_case/test_case1.py", line 69, in test_case
+    test_case(num)
+  File "testing_case/test_case1.py", line 69, in test_case
+    test_case(num)
+  [Previous line repeated 2 more times]
+  File "testing_case/test_case1.py", line 12, in test_case
+    time.sleep(3)
+KeyboardInterrupt

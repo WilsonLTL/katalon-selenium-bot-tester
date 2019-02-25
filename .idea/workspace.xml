@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0f15119-5856-46e5-b09c-293c3eb4eedd" name="Default" comment="" />
+    <list default="true" id="c0f15119-5856-46e5-b09c-293c3eb4eedd" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/test_case1-2019-02-22 17:49:58.346949.txt" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,30 +14,48 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Selenium$Main.coverage" NAME="Main Coverage Results" MODIFIED="1550828989228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Selenium$Main.coverage" NAME="Main Coverage Results" MODIFIED="1551082938946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Selenium$test_case1.coverage" NAME="test_case1 Coverage Results" MODIFIED="1551070369964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing_case" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Main.py">
+      <file leaf-file-name="test_case1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testing_case/test_case1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="158">
+              <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="165">
-                <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="config.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_case2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing_case/test_case2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -47,6 +69,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Start</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -54,7 +81,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/testing_case/__init__.py" />
+        <option value="$PROJECT_DIR$/config.json" />
         <option value="$PROJECT_DIR$/Main.py" />
+        <option value="$PROJECT_DIR$/testing_case/test_case2.py" />
+        <option value="$PROJECT_DIR$/testing_case/test_case1.py" />
       </list>
     </option>
   </component>
@@ -68,10 +99,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
-    <option name="y" value="40" />
-    <option name="width" value="927" />
-    <option name="height" value="981" />
+    <option name="x" value="884" />
+    <option name="y" value="24" />
+    <option name="width" value="787" />
+    <option name="height" value="982" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -91,6 +122,11 @@
               <item name="Selenium" type="462c0819:PsiDirectoryNode" />
               <item name="log" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="testing_case" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -105,6 +141,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/testing_case" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -117,7 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Main">
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,9 +178,33 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="test_case1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Selenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testing_case/test_case1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Main" />
+      <item itemvalue="Python.test_case1" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Main" />
+        <item itemvalue="Python.test_case1" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +222,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="40" width="927" height="981" extended-state="0" />
+    <frame x="884" y="24" width="787" height="982" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -165,13 +230,13 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27683616" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32918552" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23954803" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.259887" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32881355" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984375" visible="true" weight="0.32080537" />
       <window_info anchor="bottom" id="Docker" order="7" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32936507" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="1" sideWeight="0.5015625" side_tool="true" weight="0.31349206" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -180,7 +245,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299435" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,57 +254,99 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/2019-02-22 17:37:06.308386.txt">
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 14:28:07.879936.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 14:26:31.808104.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 14:23:19.995225.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 14:21:44.526113.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 14:20:07.951979.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 14:18:30.531019.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 14:16:54.681876.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 14:15:17.383099.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 14:02:28.477972.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 13:41:43.040358.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 13:38:57.528601.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 13:36:00.824426.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 13:27:52.368949.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 13:54:29.021019.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 13:49:40.450772.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case1-2019-02-25 13:56:53.050600.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case1-2019-02-25 13:48:52.357934.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case1-2019-02-25 13:40:59.628193.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case1-2019-02-25 12:19:23.770938.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case1-2019-02-25 12:39:23.277293.txt" />
+    <entry file="file://$PROJECT_DIR$/nohup.out">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/test_case1-2019-02-22 17:49:24.139677.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/test_case1-2019-02-22 17:49:58.346949.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="165">
-            <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/log/test_case1-2019-02-25 14:35:49.415491.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 14:33:27.701719.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 14:35:08.358000.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case1-2019-02-22 17:49:58.346949.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 14:40:40.003353.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 14:43:46.669037.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 14:45:15.488446.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 14:46:52.692526.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 14:51:02.226304.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 14:49:23.625325.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 14:58:13.474960.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 15:10:59.689264.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 15:09:04.844742.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 15:07:25.440273.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 15:05:28.579406.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 15:12:49.586368.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case1-2019-02-25 15:12:00.018441.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case1-2019-02-25 15:08:05.279471.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 15:17:15.113114.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 15:19:11.806383.txt" />
+    <entry file="file://$PROJECT_DIR$/log/test_case1-2019-02-25 15:19:55.958745.txt" />
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state relative-caret-position="425">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 15:31:36.970889.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 15:22:06.933980.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 15:26:12.253925.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/test_case2-2019-02-25 15:29:48.307360.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/test_case1-2019-02-25 15:32:24.112318.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing_case/test_case2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing_case/test_case1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
         </state>
       </provider>
     </entry>

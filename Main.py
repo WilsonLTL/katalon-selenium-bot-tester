@@ -1,83 +1,47 @@
-from selenium import webdriver
-import datetime
-import time
-from selenium.webdriver.common.keys import Keys
-browser = webdriver.Chrome()
+from flask import Flask,jsonify,request,abort
+import json, time, subprocess
+import threading
+import schedule as sh
+app = Flask(__name__)
 
 
-def login():
-    browser.get("https://www.messenger.com/t/DrCareAi")
-    try:
+@app.route('/', methods=['POST','GET'])
+def enter_api_system():
+    result = {
+        "result": "enter api system"
+    }
+    return jsonify(result)
+
+
+@app.route('/schedule', methods=['POST','GET'])
+def schedule():
+    config_schedule()
+    return jsonify({"status":True})
+
+
+def config_schedule():
+    with open('config.json') as f:
+        data = json.load(f)
+        for test_case in data["testing_case"]:
+            # testing_time_spacing
+            print(test_case["program_name"])
+            sh.every(test_case["testing_time_spacing"]).seconds.do(run_test, test_case["program_name"])
+    f.close()
+    threading.Thread(target=run).start()
+    return jsonify({"status":True})
+
+def run():
+    while True:
+        sh.run_pending()
         time.sleep(1)
-        email = browser.find_element_by_id("email")
-        password = browser.find_element_by_id("pass")
-        submit = browser.find_element_by_id("loginbutton")
-
-        email.send_keys("")
-        # your email address
-        password.send_keys("")
-        # your_password
-        submit.click()
-    except Exception as e:
-        login()
 
 
-def test_case1(num):
+def run_test(test_name):
     try:
-        print("Start:" + str(num))
-        start = time.time()
-        time.sleep(1)
-        if num == 1:
-            browser.find_element_by_link_text(u"開始使用").click()
-            print("Finish:" + str(num))
-            num += 1
-        elif num == 2:
-            browser.find_element_by_xpath(u"//a[contains(text(),'可以問什麼? 🛂')]").click()
-            browser.find_element_by_link_text(u"可以問什麼? 🛂").click()
-            print("Finish:" + str(num))
-            num += 1
-        elif num == 3:
-            browser.execute_script("window.scrollTo(0, 320)")
-            browser.find_element_by_xpath(u"//div[contains(text(),'可以了 👌🏻')]").click()
-            print("Finish:" + str(num))
-            num += 1
-        elif num == 4:
-            browser.find_element_by_link_text(u"回主菜單 🏠").click()
-            print("Finish:" + str(num))
-            num += 1
-        elif num == 5:
-            # browser.find_element_by_class_name("viewBox='0 0 64 64'").click()
-            # print("Finish:" + str(num))
-            num += 1
-        elif num == 6:
-            browser.find_element_by_css_selector("div._3-ne > div._3d85 > div._5blh._4-0h").click()
-            print("Finish:" + str(num))
-            num += 1
-        elif num == 7:
-            browser.find_element_by_xpath("//li[4]/a/span/span").click()
-            print("Finish:" + str(num))
-            num += 1
-        elif num == 8:
-            browser.find_element_by_xpath("//span[2]/button").click()
-            print("Finish:" + str(num))
-            num += 1
-        else:
-            print("No match step number:"+num)
-        latency = time.time() - start
-        millis = int(round(latency * 1000))
-        with open(filename, "a") as f:
-            f.write(str(datetime.datetime.now()) + ",success," + str(millis) + "\n")
-        f.close()
-        if num <= 8:
-            test_case1(num)
+        subprocess.run(["python","testing_case/" + test_name + ".py"])
     except Exception as e:
-        with open(filename, "a") as f:
-            f.write(str(datetime.datetime.now()) + ",false" + "\n")
-        f.close()
-        test_case1(num)
+        print(e)
 
 
-login()
-filename = "log/test_case1-" + str(datetime.datetime.now()) + ".txt"
-test_case1(1)
-browser.close()
+if __name__ == '__main__':
+    app.run(host="0.0.0.0", port=8081)
